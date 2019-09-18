@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
-const port = process.env.PORT || 3000;
+const port = 3000;
 const apiKey = process.env.OPENMAPS_API_KEY || '*****************';
 
 app.use(express.static('public'));
